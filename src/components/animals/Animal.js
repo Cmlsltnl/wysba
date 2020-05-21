@@ -10,7 +10,7 @@ class Animal extends React.Component {
     const className = ratio < animal.ratio ? 'alive' : 'dead'
 
     return <div className={`animal handwritten ${className}`}>
-      <div className="picture"><img src={images[animal.key]} alt="pig"/></div>
+      <div className="picture"><img src={images[animal.key]} alt="{animal.name}"/></div>
       <div className="content">
         <div className="name">{animal.name}</div>
         <div className="progress-bar">
