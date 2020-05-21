@@ -1,14 +1,13 @@
 const DEFAULT_STATE = {
   data: [
-    { name: 'pigs', lifespan: '12 years', slaughter: '6 months', ratio: 4.17, key: 'pig' },
-    { name: 'male dairy calves', lifespan: '20 years', slaughter: '1-24 weeks', ratio: 1.25, key: 'malecalve' },
-    { name: 'cows used for meat', lifespan: '20 years', slaughter: '18 months', ratio: 7.5, key: 'cow' },
-    { name: 'male egg chicks', lifespan: '8 years', slaughter: '1 day', ratio: 0.0003, key: 'malechick' },
-    { name: 'lambs', lifespan: '12 years', slaughter: '6-8 months', ratio: 4.20, key: 'lamb' },
-    { name: 'chickens used for eggs', lifespan: '8 years', slaughter: '1-2 years', ratio: 18.75, key: 'eggchicken' },
-    { name: 'turkeys', lifespan: '15 years', slaughter: '5 months', ratio: 2.78, key: 'turkey' },
-    { name: 'cows used for milk', lifespan: '20 years', slaughter: '5 years', ratio: 25, key: 'milkcow' },
-    { name: 'chickens used for meat', lifespan: '8 years', slaughter: '6 weeks', ratio: 1.5625, key: 'meatchicken' },
+    { name: 'erkək südlük inək balası', lifespan: '20 il', slaughter: '1-24 həftə', ratio: 1.25, key: 'malecalve' },
+    { name: 'ət üçün istifadə olunan inəklər', lifespan: '20 il', slaughter: '18 ay', ratio: 7.5, key: 'cow' },
+    { name: 'erkək inkubator cücələri', lifespan: '8 il', slaughter: '1 gün', ratio: 0.0003, key: 'malechick' },
+    { name: 'quzular', lifespan: '12 il', slaughter: '6-8 ay', ratio: 4.20, key: 'lamb' },
+    { name: 'yumurta üçün istifadə olunan toyuqlar', lifespan: '8 il', slaughter: '1-2 il', ratio: 18.75, key: 'eggchicken' },
+    { name: 'hindquşları', lifespan: '15 il', slaughter: '5 ay', ratio: 2.78, key: 'turkey' },
+    { name: 'süd üçün istifadə olunan inəklər', lifespan: '20 il', slaughter: '5 il', ratio: 25, key: 'milkcow' },
+    { name: 'ət üçün istifadə olunan toyuqlar', lifespan: '8 il', slaughter: '6 həftə', ratio: 1.5625, key: 'meatchicken' },
   ],
 }
 const reducer = (state = DEFAULT_STATE) => state
