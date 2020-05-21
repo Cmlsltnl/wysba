@@ -10,7 +10,7 @@ import './Age.css'
 const Age = ({ age }) => (
   <Section className="age handwritten">
     <AgeForm>
-      <div className="age-question">I am <AgeInput/> {age > 1 ? 'years' : 'year'} old</div>
+      <div className="age-question">Mənim hazırda <AgeInput/> {age > 1 ? 'yaşım' : 'yaşım'} var</div>
     </AgeForm>
   </Section>
 )
